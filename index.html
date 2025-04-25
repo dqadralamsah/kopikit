@@ -8,6 +8,12 @@
     />
     <title>KOPIKIT</title>
 
+    <!-- Swipier JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- my style -->
     <link rel="stylesheet" href="cssglobal.css" />
   </head>
@@ -27,11 +33,11 @@
       </nav>
     </header>
     <main>
-      <!-- Jumbotron -->
+      <!-- Jumbotron Section-->
       <section class="hero-section">
         <div class="hero-content">
           <h1 class="hero-title">KOPIKIT</h1>
-          <h3 class="hero-subtitle">Kopi Nikmat Nyaman Dilambung</h3>
+          <h3 class="hero-subtitle">Kopi N3ikmat Nyaman Dilambung</h3>
           <p class="hero-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Inventore iste quam labore dolores asperiores! Provident
@@ -42,17 +48,62 @@
             <button class="hero-button-menu">MENU</button>
           </div>
         </div>
-        <img src="/public/jumbotronimg.avif" alt="jumbotronimg" />
+        <img src="public/jumbotronimg.avif" alt="jumbotronimg" />
+      </section>
+
+      <!-- Menu Section -->
+      <section class="menu-section">
+        <div class="menu-content">
+          <h3>CURIOUS ABOUT KOPIKIT COFFEE?</h3>
+          <h3>GET YOURS NOW!</h3>
+        </div>
+        <div class="produc-container swiper">
+          <div class="product-wripper swiper-wrapper">
+            <div class="product-item swiper-slide">
+              <img src="public/cup.png" alt="cup" />
+              <div class="product-detail">
+                <h4>Kopi Hitam Kupu-kupu</h4>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <img src="public/cup.png" alt="cup" />
+              <div class="product-detail">
+                <h4>Kopi Hitam Kupu-kupu 2</h4>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <img src="public/cup.png" alt="cup" />
+              <div class="product-detail">
+                <h4>Kopi Hitam Kupu-kupu 3</h4>
+              </div>
+            </div>
+            <div class="product-item swiper-slide">
+              <img src="public/cup.png" alt="cup" />
+              <div class="product-detail">
+                <h4>Kopi Hitam Kupu-kupu 4</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </section>
     </main>
     <footer></footer>
 
-    <!-- my script -->
-    <script src="index.js"></script>
     <!-- FontAwesome -->
     <script
       src="https://kit.fontawesome.com/fef903a4ea.js"
       crossorigin="anonymous"
     ></script>
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- my script -->
+    <script src="index.js"></script>
   </body>
 </html>

@@ -12,7 +12,7 @@
 
 :root {
   --gren-prymiry: #005d38;
-  --gren-scondary: #028b40;
+  --gren-scondary: #00b451;
   --yellow: #ffd23d;
 }
 
@@ -31,6 +31,7 @@ body {
   right: 0;
   padding: 1rem 7rem;
   background-color: var(--gren-prymiry);
+  z-index: 100;
 }
 
 .nav-logo {
@@ -73,9 +74,9 @@ body {
   top: 35%;
   display: flex;
   flex-direction: column;
-  width: 50rem;
   padding: 0 7rem;
   gap: 1rem;
+  width: 50rem;
   color: #ffffff;
 }
 
@@ -107,6 +108,43 @@ body {
 .hero-button-menu:hover {
   color: var(--yellow);
   background-color: var(--gren-scondary);
+}
+
+/* Menu Section */
+.menu-section {
+  padding: 1rem 7rem;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.menu-content h3 {
+  font-family: "Knewave", system-ui;
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--gren-prymiry);
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  padding: 1rem;
+}
+
+.product-item img {
+  width: 250px;
+}
+
+.product-detail h4 {
+  text-align: center;
 }
 
 /* Responsive Design */
